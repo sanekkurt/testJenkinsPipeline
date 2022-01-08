@@ -5,9 +5,9 @@ import "testing"
 func TestSum(t *testing.T) {
 
 	got := Sum(4, 6)
-	want := 11
+	want := 10
 
 	if got != want {
-		t.Errorf("got %q, wanted %q", got, want)
+		t.Errorf("got %d, wanted %d", got, want)
 	}
 }
